@@ -232,12 +232,13 @@ a:hover{
 
 #menu{
     position: absolute;
-    width: 300px;
+    width: 250px;
     margin: -100px 0 0 0;
-    padding: 50px;
-    padding-top: 125px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+    padding-top: 100px;
     right: -100px;
-    background: #e1d5d577;
+    background: #f4ffff;
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
     transform-origin: 0% 0%;
@@ -246,8 +247,8 @@ a:hover{
 }
 
 #menu li{
-    padding: 10px 0;
-    font-size: 22px;
+    padding: 5px 0;
+    font-size: 15px;
 }
 
 #menuToggle input:checked ~ ul{
