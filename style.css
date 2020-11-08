@@ -937,9 +937,129 @@ span{
         .navbar a{
             padding: 7% 2%;
         }
+        .presentation h1{
+            font-size: 40px;
+        }
+    
+        .presentation h2{
+            font-size: 30px;
+        }
+    
+        .presentation p{
+            font-size: 15px;
+        }
 
-        .presentation{
-            margin-left: 10%;
+        .reseaux{
+            transform: rotate(270deg);
+            position: fixed;
+            bottom: 89%;
+            right: 47%;  
+        }
+    
+        .reseaux img{
+            transform: rotate(90deg);
+        }
+    
+        .reseaux p{
+            padding-top: 1.5%;
+        }
+
+            /* aboutme */
+    #about-me{
+        height: 700px;
+        margin-top: 20%;
+    }
+
+    #about-me h2{
+        font-size: 30px;
+    }
+
+    .profil img{
+        width: 40%;
+    }
+
+    .text-aboutme p{
+        padding-top: 0%;
+        font-size: 15px;
+        width: 50%;
+    }
+
+    /* my resume */
+    #my-resume{
+        padding-bottom: 5%;
+    }
+    #my-resume p{
+        font-size: 15px;
+        margin-left: 50%;
+    }
+
+    #my-resume h2{
+        font-size: 30px;
+        padding-top: 5%;
+    }
+    .education h2{
+        margin-left: 40%;
+    }
+
+    .experience h2{
+        margin-left: 40%;
+    }
+
+    /* my work */
+
+
+    #my-work h2{
+        font-size: 30px;
+    }
+
+    #my-work p{
+        font-size: 15px;
+    }
+
+    .nouvelle-forge,
+    .runzik,
+    .servDrone,
+    .numeriquElle{
+        width: 20%;
+        height: 250px;
+    }
+
+    /* competence */
+    #competence h2{
+        font-size: 30px;
+    }
+
+    /* contact */
+    #contact h2{
+        font-size: 30px;
+        padding-top: 0%;
+    }
+    .message img{
+        width: 20%;
+        margin-left: 40%;
+
+    }
+
+    .message p{
+        font-size: 15px;
+
+    }  
+    }
+
+    @media screen and (min-device-width : 1900px){
+        .reseaux{
+            transform: rotate(270deg);
+            position: fixed;
+            bottom: 80%;
+            right: 47%;  
+        }
+
+        .navbar_burger{
+            display: none;
+        }
+    
+        .navbar a{
+            padding: 7% 2%;
         }
         .presentation h1{
             font-size: 50px;
@@ -952,102 +1072,92 @@ span{
         .presentation p{
             font-size: 20px;
         }
-    
-        .reseaux{
-            transform: rotate(270deg);
-            position: sticky;
-            bottom: 80%;
-            right: 47%;  
+
+        .presentation{
+            margin-left: 10%;
         }
-    
-        .reseaux img{
-            transform: rotate(90deg);
-        }
-    
-        .reseaux p{
-            padding-top: 1.5%;
-        }
-    
-        /* aboutme */
-        #about-me{
-            height: 700px;
-            margin-top: 20%;
-        }
-    
-        #about-me h2{
-            font-size: 40px;
-        }
-    
-        .profil img{
-            width: 40%;
-        }
-    
-        .text-aboutme p{
-            padding-top: 0%;
-            font-size: 20px;
-            width: 50%;
-        }
-    
-        /* my resume */
-        #my-resume{
-            padding-bottom: 5%;
-        }
-        #my-resume p{
-            font-size: 20px;
-            margin-left: 50%;
-        }
-    
-        #my-resume h2{
-            font-size: 40px;
-            padding-top: 5%;
-        }
-        .education h2{
-            margin-left: 40%;
-        }
-    
-        .experience h2{
-            margin-left: 40%;
-        }
-    
-        /* my work */
-    
-    
-        #my-work h2{
-            font-size: 40px;
-        }
-    
-        #my-work p{
-            font-size: 20px;
-        }
-    
-        .nouvelle-forge,
-        .runzik,
-        .servDrone,
-        .numeriquElle{
-            width: 20%;
-            height: 320px;
-        }
-    
-        /* competence */
-        #competence h2{
-            font-size: 40px;
-        }
-    
-        /* contact */
-        #contact h2{
-            font-size: 40px;
-            padding-top: 0%;
-        }
-        .message img{
-            width: 20%;
-            margin-left: 40%;
-    
-        }
-    
-        .message p{
-            font-size: 20px;
-    
-        }  
+
+
+            /* aboutme */
+    #about-me{
+        height: 700px;
+        margin-top: 20%;
+    }
+
+    #about-me h2{
+        font-size: 40px;
+    }
+
+    .profil img{
+        width: 40%;
+    }
+
+    .text-aboutme p{
+        padding-top: 0%;
+        font-size: 20px;
+        width: 50%;
+    }
+
+    /* my resume */
+    #my-resume{
+        padding-bottom: 5%;
+    }
+    #my-resume p{
+        font-size: 20px;
+        margin-left: 55%;
+    }
+
+    #my-resume h2{
+        font-size: 40px;
+        padding-top: 5%;
+    }
+    .education h2{
+        margin-left: 42%;
+    }
+
+    .experience h2{
+        margin-left: 40%;
+    }
+
+    /* my work */
+
+
+    #my-work h2{
+        font-size: 40px;
+    }
+
+    #my-work p{
+        font-size: 20px;
+    }
+
+    .nouvelle-forge,
+    .runzik,
+    .servDrone,
+    .numeriquElle{
+        width: 20%;
+        height: 320px;
+    }
+
+    /* competence */
+    #competence h2{
+        font-size: 40px;
+    }
+
+    /* contact */
+    #contact h2{
+        font-size: 40px;
+        padding-top: 0%;
+    }
+    .message img{
+        width: 20%;
+        margin-left: 40%;
+
+    }
+
+    .message p{
+        font-size: 20px;
+
+    }
     }
 
    
