@@ -13,10 +13,6 @@ body{
     background-size: 100%;
 }
 
-#header_home{
-    
-}
-
 .button_list {
     display: flex;
     flex-direction: row;
@@ -255,9 +251,7 @@ a:hover{
     opacity: 1;
 }
 
-.navbar{
-    display: none;
-}
+
 
 /* body */
 
@@ -696,6 +690,12 @@ span{
 
     }
 }
+@media screen and (max-device-width : 1024px){
+    .navbar{
+        display: none;
+    }
+}
+
 
 @media screen and (min-device-width : 1024px) and (max-device-width : 1200px){
     .navbar_burger{
@@ -1065,6 +1065,11 @@ span{
 
         .navbar_burger{
             display: none;
+        }
+
+        .navbar{
+            width: 50%;
+            height: 100px;
         }
     
         .navbar a{
