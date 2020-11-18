@@ -465,7 +465,7 @@ span{
     font-size: 10px;
 }
 
-.runzik{
+.fallout{
     margin-top: 5%;
     width: 40%;
     border-radius: 10px;
@@ -473,15 +473,15 @@ span{
     margin-left: 5%;
 }
 
-.runzik img{
-    width: 80%;
+.fallout img{
+    width: 60%;
     margin-left: 10%;
-    margin-top: 20%;
+    margin-top: 10%;
     border-radius: 10px;
 }
 
-.runzik p{
-    margin-top: 20%;
+.fallout p{
+    margin-top: 10%;
     padding-bottom: 0%;
     color: #fff;
     font-size: 10px;
@@ -794,7 +794,7 @@ span{
     }
 
     .nouvelle-forge,
-    .runzik,
+    .fallout,
     .servDrone,
     .numeriquElle{
         width: 20%;
@@ -911,7 +911,7 @@ span{
     }
 
     .nouvelle-forge,
-    .runzik,
+    .fallout,
     .servDrone,
     .numeriquElle{
         width: 20%;
@@ -1028,7 +1028,7 @@ span{
     }
 
     .nouvelle-forge,
-    .runzik,
+    .fallout,
     .servDrone,
     .numeriquElle{
         width: 20%;
@@ -1151,7 +1151,7 @@ span{
     }
 
     .nouvelle-forge,
-    .runzik,
+    .fallout,
     .servDrone,
     .numeriquElle{
         width: 20%;
