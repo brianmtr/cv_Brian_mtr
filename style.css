@@ -567,7 +567,8 @@ span{
 }
 
 .picture_competence img{
-    width: 50%;
+    width: 400px;
+    height: 500px;
 }
 
 /* Contact */
@@ -630,11 +631,21 @@ span{
         width: 200px;
         height: 150px;
     }
+
+    .picture_competence img{
+        width: 200px;
+        height: 150px;
+    }
 }
 
 
 @media screen and (min-device-width : 380px) and (max-device-width : 768px){
     .profil img{
+        width: 300px;
+        height: 200px;
+    }
+
+    .picture_competence img{
         width: 300px;
         height: 200px;
     }
@@ -676,6 +687,11 @@ span{
     }
 
     .profil img{
+        width: 400px;
+        height: 300px;
+    }
+
+    .picture_competence img{
         width: 400px;
         height: 300px;
     }
@@ -767,6 +783,11 @@ span{
     }
 
     .profil img{
+        width: 500px;
+        height: 400px;
+    }
+
+    .picture_competence img{
         width: 500px;
         height: 400px;
     }
@@ -892,6 +913,11 @@ span{
         height: 400px;
     }
 
+    .picture_competence img{
+        width: 600px;
+        height: 400px;
+    }
+
     .text-aboutme p{
         padding-top: 0%;
         font-size: 15px;
@@ -1006,6 +1032,11 @@ span{
     }
 
     .profil img{
+        width: 600px;
+        height: 400px;
+    }
+
+    .picture_competence img{
         width: 600px;
         height: 400px;
     }
@@ -1131,6 +1162,11 @@ span{
 
     .profil img{
         width: 40%;
+    }
+
+    .picture_competence img{
+        width: 900px;
+        height: 800px;
     }
 
     .text-aboutme p{
