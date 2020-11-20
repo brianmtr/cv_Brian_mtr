@@ -357,7 +357,8 @@ span{
 }
 
 .profil img{
-    width: 70%;
+    width: 400px;
+    height: 500px;
     border-radius: 10px;  
 }
 
@@ -624,6 +625,21 @@ span{
     margin-top: 15%;
     border-radius: 10px;
 }
+@media screen and (min-device-width : 0px) and (max-device-width : 380px){
+    .profil img{
+        width: 200px;
+        height: 150px;
+    }
+}
+
+
+@media screen and (min-device-width : 380px) and (max-device-width : 768px){
+    .profil img{
+        width: 300px;
+        height: 200px;
+    }
+}
+
 
 @media screen and (min-device-width : 768px) and (max-device-width : 1024px){
     /* Styles pour tablette*/
@@ -660,7 +676,8 @@ span{
     }
 
     .profil img{
-        width: 50%;
+        width: 400px;
+        height: 300px;
     }
 
     #text-aboutme p{
@@ -750,7 +767,8 @@ span{
     }
 
     .profil img{
-        width: 40%;
+        width: 500px;
+        height: 400px;
     }
 
     .text-aboutme p{
@@ -870,7 +888,8 @@ span{
     }
 
     .profil img{
-        width: 40%;
+        width: 600px;
+        height: 400px;
     }
 
     .text-aboutme p{
@@ -987,7 +1006,8 @@ span{
     }
 
     .profil img{
-        width: 40%;
+        width: 600px;
+        height: 400px;
     }
 
     .text-aboutme p{
